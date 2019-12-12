@@ -218,7 +218,7 @@ class AES
    * @param size the size of the string
    * @return true if correct / false if not
    */
-  bool CheckPad(byte* in,int size);
+  bool CheckPad(byte* in,int lsize);
 
   /** Prints the array given.
    * 
